@@ -17,13 +17,11 @@ class Book:
                 if j.name == name:
                     print(str(j))
                     return
-        pass
 
     def get_recipes_by_types(self, recipe_type):
         # """Get all recipe names for a given recipe_type """
         for i in self.recipe_list[recipe_type]:
             print(i.name)
-        pass
 
     def add_recipe(self, recipe):
         # """Add a recipe to the book and update last_update"""
@@ -31,7 +29,6 @@ class Book:
             if recipe.recipe_type == i:
                 self.recipe_list[i].append(recipe)
                 self.last_update = datetime.datetime.now()
-        pass
 
 
 book = Book()
