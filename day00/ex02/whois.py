@@ -5,11 +5,11 @@ arg = sys.argv
 if len(arg) == 2:
     if arg[1].isnumeric():
         if int(arg[1]) == 0:
-            print('Zero')
+            print("I'm Zero.")
         elif int(arg[1]) % 2 == 0:
-            print('Even')
+            print("I'm Even.")
         else:
-            print('Odd')
+            print("I'm Odd.")
     else:
         print('ERROR')
 else:

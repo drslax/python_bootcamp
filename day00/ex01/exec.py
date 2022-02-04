@@ -11,3 +11,4 @@ if ln > 1:
             print(c.upper(), end='')
         else:
             print(c, end='')
+    print('')

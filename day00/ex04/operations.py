@@ -10,5 +10,9 @@ if len(argv) == 3:
             print('Quotient: {:12f}'.format(a / b))
             print('Remainder: {:4d}'.format(a % b))
         else:
-            print('Quotient: {}'.format('ERROR'))
-            print('Quotient: {}'.format('ERROR'))
+            print('Quotient: {}'.format('ERROR (div by zero)'))
+            print('Remainder: {}'.format('ERROR (modulo by zero)'))
+    else:
+        print("InputError: only numbers")
+else:
+    print("InputError: too many arguments")
