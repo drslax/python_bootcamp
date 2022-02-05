@@ -26,8 +26,3 @@ def text_analyzer(*args):
     upper, lower = f'- {u} upper letters', f'- {l} lower letters'
     marks, space = f'- {p} punctuation marks', f'- {s} spaces'
     print(f'{total}\n{upper}\n{lower}\n{marks}\n{space}')
-
-
-text_analyzer()
-# text_analyzer()
-print(text_analyzer.__doc__)
